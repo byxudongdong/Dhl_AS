@@ -1,11 +1,11 @@
 [
     {
-        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
-        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\listitem_device.xml"
-    },
-    {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting.xml",
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\setting.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\listitem_device.xml"
     },
     {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jianhuo_doc.xml",
@@ -16,16 +16,16 @@
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\fenjian_sku.xml"
     },
     {
-        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dbhelper.xml",
-        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\dbhelper.xml"
-    },
-    {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_menu.xml",
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\main_menu.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dbhelper.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\dbhelper.xml"
     },
     {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\timeout.xml",
@@ -72,24 +72,24 @@
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\opration_huowei.xml"
     },
     {
-        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fahuo_other.xml",
-        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\fahuo_other.xml"
-    },
-    {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bluetooth_scan_activity.xml",
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\bluetooth_scan_activity.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fahuo_other.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\fahuo_other.xml"
     },
     {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sync.xml",
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\sync.xml"
     },
     {
-        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wait2.xml",
-        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\wait2.xml"
-    },
-    {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wait2.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\layout\\wait2.xml"
     },
     {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\box_baozhuang.xml",

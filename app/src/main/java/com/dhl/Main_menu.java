@@ -160,7 +160,7 @@ public class Main_menu extends Activity{
 						        {
 						        	Boolean opStyle = false;
 						        	//插入同步货架记录
-						        	if(opStyle==true)
+						        	if(opStyle)
 						        	{
 						        		LogUtils.i("开始插入数据*****************"+ new SimpleDateFormat("yyyy-MM-dd  HH:mm:ss").format(new Date()));
 							        	for(int i=0;i<result.getLoc_id().size();i++)

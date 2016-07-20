@@ -197,7 +197,7 @@ public class Fenjian_Huowei extends Activity {
 
 	public void huowei(View v)
 	{
-		if(!TextUtils.isEmpty(huowei_data.getText().toString()) &&  chackLocIdRules(huowei_data.getText().toString())==true)
+		if(!TextUtils.isEmpty(huowei_data.getText().toString()) &&  chackLocIdRules(huowei_data.getText().toString()))
 		{
 			Editor editor = sp.edit();
 			editor.putString("loc_id",  huowei_data.getText().toString() ); //Integer.parseInt()
@@ -212,7 +212,7 @@ public class Fenjian_Huowei extends Activity {
 			finish();
 		}else{
 			Toast toast = Toast.makeText(getApplicationContext(),
-					"不存在的货架", Toast.LENGTH_LONG);
+					"不存在的货架", Toast.LENGTH_SHORT);
 			toast.setGravity(Gravity.CENTER, 0, 0);
 			LinearLayout toastView = (LinearLayout) toast.getView();
 			ImageView imageCodeProject = new ImageView(getApplicationContext());
@@ -228,6 +228,7 @@ public class Fenjian_Huowei extends Activity {
 		Cursor queryResult = db.rawQuery("select * from locid where String=? limit ?,?",
 				new String[]{loc_id,"0","1" });//String.valueOf(packSize)
 		int count=queryResult.getCount();
+		queryResult.close();
 		Log.i("取出条数", String.valueOf(count));
 		if (count > 0)
 		{

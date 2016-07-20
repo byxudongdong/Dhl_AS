@@ -9,7 +9,6 @@ public class LocIdRules {
 	public Boolean chackLocIdRules(String loc_id)
 	{
 
-
 		return null;
 	}
 

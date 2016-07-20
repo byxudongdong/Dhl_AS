@@ -28,6 +28,7 @@ import android.text.TextUtils;
 import android.text.format.Time;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
@@ -36,7 +37,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 /**
- * @author
+ * @author ddd
  *
  */
 public class Jianhuo_huowei extends Activity {
@@ -96,6 +97,18 @@ public class Jianhuo_huowei extends Activity {
 		Log.i("NEWDATE", newdate);
 
 		resetTime();
+
+		huowei_data.setOnTouchListener(new EditText.OnTouchListener() {
+
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				// TODO Auto-generated method stub
+				if (event.getAction() == MotionEvent.ACTION_DOWN) {
+					huowei_data.setText("");
+				}
+				return false;
+			}
+		});
 
 		newThread = new Thread(new Runnable() {
 			@Override
@@ -221,7 +234,7 @@ public class Jianhuo_huowei extends Activity {
 			finish();
 		}else{
 			Toast toast = Toast.makeText(getApplicationContext(),
-					"不存在的货架", Toast.LENGTH_LONG);
+					"不存在的货架", Toast.LENGTH_SHORT);
 			toast.setGravity(Gravity.CENTER, 0, 0);
 			LinearLayout toastView = (LinearLayout) toast.getView();
 			ImageView imageCodeProject = new ImageView(getApplicationContext());
@@ -237,6 +250,7 @@ public class Jianhuo_huowei extends Activity {
 		Cursor queryResult = db.rawQuery("select * from locid where String=? limit ?,?",
 				new String[]{loc_id,"0","1" });//String.valueOf(packSize)
 		int count=queryResult.getCount();
+		queryResult.close();
 		Log.i("取出条数", String.valueOf(count));
 		if (count > 0)
 		{
@@ -330,5 +344,21 @@ public class Jianhuo_huowei extends Activity {
 			}
 		}
 	};
+//	int i=0;
+//	@Override
+//	public boolean dispatchKeyEvent(KeyEvent event) {
+//		if (event.getKeyCode() == KeyEvent.KEYCODE_ENTER) {
+//			 //when the softinput display
+//			 //处理事件
+//			i++;
+//			if(i == 1){
+//				Log.i("按键截获", "完成键");
+//				huowei(null);
+//			}else if (i == 2){
+//				i = 0;
+//			}
+//		}
+//		return false;
+//	}
 
 }

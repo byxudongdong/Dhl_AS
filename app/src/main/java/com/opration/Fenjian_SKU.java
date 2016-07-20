@@ -74,11 +74,11 @@ public class Fenjian_SKU extends Activity {
 				{
 					count_data.setText(bt_data);
 					count_data.setSelection(bt_data.length());
-					editor.putInt("qty", Integer.valueOf(bt_data).intValue());
+					editor.putInt("qty", Integer.valueOf(bt_data));
 				}
 				Log.i("user_data", count_data.getText().toString());
 			}
-			editor.commit();
+			editor.apply();
 		}
 	};
 

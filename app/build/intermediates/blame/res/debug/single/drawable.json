@@ -1,11 +1,11 @@
 [
     {
-        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\draw_button.xml",
-        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\draw_button.xml"
-    },
-    {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pts.png",
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\pts.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\draw_button.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\draw_button.xml"
     },
     {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkswitch_btn_unpressed.png",
@@ -32,12 +32,12 @@
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\single_select.xml"
     },
     {
-        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_layout_selector.xml",
-        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\single_layout_selector.xml"
-    },
-    {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\portrait.png",
         "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\portrait.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_layout_selector.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\single_layout_selector.xml"
     },
     {
         "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkswitch_bottom.png",
