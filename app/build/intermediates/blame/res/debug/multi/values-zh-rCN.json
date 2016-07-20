@@ -1,0 +1,539 @@
+[
+    {
+        "outputFile": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rCN\\values-zh-rCN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1003,
+                        "endColumn": 43,
+                        "endOffset": 1042
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 42,
+                    "endOffset": 137
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 42,
+                        "endOffset": 381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 142,
+                    "endColumn": 36,
+                    "endOffset": 174
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 470,
+                        "endColumn": 36,
+                        "endOffset": 502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 179,
+                    "endColumn": 44,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 44,
+                        "endOffset": 426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endColumn": 40,
+                    "endOffset": 260
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 40,
+                        "endOffset": 94
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 265,
+                    "endColumn": 35,
+                    "endOffset": 296
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 307,
+                        "endColumn": 35,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 301,
+                    "endColumn": 36,
+                    "endOffset": 333
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 270,
+                        "endColumn": 36,
+                        "endOffset": 302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 338,
+                    "endColumn": 42,
+                    "endOffset": 376
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 960,
+                        "endColumn": 42,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 381,
+                    "endColumn": 37,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 507,
+                        "endColumn": 37,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 419,
+                    "endColumn": 34,
+                    "endOffset": 449
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1204,
+                        "endColumn": 34,
+                        "endOffset": 1234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 454,
+                    "endColumn": 48,
+                    "endOffset": 498
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 731,
+                        "endColumn": 48,
+                        "endOffset": 775
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 503,
+                    "endColumn": 48,
+                    "endOffset": 547
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 631,
+                        "endColumn": 48,
+                        "endOffset": 675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 552,
+                    "endColumn": 40,
+                    "endOffset": 588
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 919,
+                        "endColumn": 40,
+                        "endOffset": 955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 593,
+                    "endColumn": 45,
+                    "endOffset": 634
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 45,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 639,
+                    "endColumn": 38,
+                    "endOffset": 673
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 431,
+                        "endColumn": 38,
+                        "endOffset": 465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 678,
+                    "endColumn": 47,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 871,
+                        "endColumn": 47,
+                        "endOffset": 914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 726,
+                    "endColumn": 40,
+                    "endOffset": 762
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 830,
+                        "endColumn": 40,
+                        "endOffset": 866
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 767,
+                    "endColumn": 50,
+                    "endOffset": 813
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 50,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 818,
+                    "endColumn": 45,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 585,
+                        "endColumn": 45,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 864,
+                    "endColumn": 33,
+                    "endOffset": 893
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 236,
+                        "endColumn": 33,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 898,
+                    "endColumn": 49,
+                    "endOffset": 943
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 780,
+                        "endColumn": 49,
+                        "endOffset": 825
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 948,
+                    "endColumn": 41,
+                    "endOffset": 985
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1088,
+                        "endColumn": 41,
+                        "endOffset": 1125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 990,
+                    "endColumn": 35,
+                    "endOffset": 1021
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1130,
+                        "endColumn": 35,
+                        "endOffset": 1161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1026,
+                    "endColumn": 37,
+                    "endOffset": 1059
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1166,
+                        "endColumn": 37,
+                        "endOffset": 1199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1064,
+                    "endColumn": 39,
+                    "endOffset": 1099
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endColumn": 39,
+                        "endOffset": 580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1104,
+                    "endColumn": 40,
+                    "endOffset": 1140
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1047,
+                        "endColumn": 40,
+                        "endOffset": 1083
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1145,
+                    "endColumn": 41,
+                    "endOffset": 1182
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 41,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1187,
+                    "endColumn": 47,
+                    "endOffset": 1230
+                },
+                "from": {
+                    "file": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 47,
+                        "endOffset": 231
+                    }
+                }
+            }
+        ]
+    }
+]

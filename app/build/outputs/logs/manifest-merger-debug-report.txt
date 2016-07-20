@@ -1,0 +1,209 @@
+-- Merging decision tree log ---
+manifest
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:2:1-105:12
+	xmlns:android
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:3:25-83
+	package
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:3:5-24
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:2:35-60
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:2:11-34
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:4:5-5:40
+MERGED from [com.android.support:support-v4:20.0.0] I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:5:9-38
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:4:15-41
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+		INJECTED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:7:2-64
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:7:19-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:8:2-78
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:8:19-75
+uses-permission#android.permission.VIBRATE
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:9:3-63
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:9:20-61
+application
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:11:5-104:19
+MERGED from [com.android.support:support-v4:20.0.0] I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:11:18-44
+	android:icon
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:13:42-73
+activity#com.login.LoginActivity
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:15:9-20:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:15:19-51
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:15:52-81
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:17:17-68
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.login.LogoActivity
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:22:9-24:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:22:19-56
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:22:57-94
+category#android.intent.category.DEFAULT
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:23:13-71
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:23:23-69
+activity#com.login.WelcomeActivity
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:25:9-27:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:25:19-56
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:25:57-97
+activity#com.dhl.MainActivity
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:29:9-31:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:29:19-56
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:29:57-92
+activity#com.dhl.Main_menu
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:33:9-35:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:33:19-56
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:33:57-89
+activity#com.dhl.Fahuo_menu
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:36:9-38:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:36:19-58
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:36:59-92
+activity#com.opration.Jianhuo_Doc
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:40:9-42:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:40:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:40:51-90
+activity#com.opration.Jianhuo_Task
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:43:9-45:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:43:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:43:51-91
+activity#com.opration.Jianhuo_huowei
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:46:9-48:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:46:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:46:51-93
+activity#com.opration.Jianhuo_SKU
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:49:9-51:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:49:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:49:51-90
+activity#com.opration.Fenjian_Doc
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:53:9-55:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:53:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:53:51-90
+activity#com.opration.Fenjian_Task
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:56:9-58:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:56:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:56:51-91
+activity#com.opration.Fenjian_Huowei
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:59:9-61:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:59:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:59:51-93
+activity#com.opration.Fenjian_SKU
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:62:9-64:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:62:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:62:51-90
+activity#com.baozhuang.Doc_baozhuang
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:66:9-68:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:66:19-52
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:66:53-95
+activity#com.baozhuang.Box_baozhuang
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:69:9-71:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:69:19-52
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:69:53-95
+activity#com.baozhuang.SKU_baozhuang
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:72:9-74:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:72:19-52
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:72:53-95
+activity#com.others.Other_func
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:76:9-78:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:76:19-47
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:76:48-84
+activity#com.others.Wait
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:80:9-82:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:80:19-47
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:80:48-78
+activity#com.others.Fahuo_Other
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:84:9-86:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:84:19-47
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:84:48-85
+activity#com.others.Wait_pandian
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:88:9-90:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:88:19-47
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:88:48-86
+activity#com.timeout.Timeout
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:92:9-94:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:92:19-50
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:92:51-85
+activity#com.others.Sync
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:96:9-98:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:96:19-47
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:96:48-78
+activity#com.login.Setting
+ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:100:9-102:20
+	android:label
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:100:19-37
+	android:name
+		ADDED from I:\Users\doyle\StudioProjects\Dhl\app\src\main\AndroidManifest.xml:100:38-70

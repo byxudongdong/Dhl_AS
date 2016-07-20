@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkswitch_frame.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\checkswitch_frame.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkswitch_bottom.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\checkswitch_bottom.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\login_bg.jpg",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\login_bg.jpg"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pts.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\pts.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkswitch_btn_unpressed.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\checkswitch_btn_unpressed.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quit.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\quit.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\draw_button.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\draw_button.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\single_shutdown_select.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\single_shutdown_select.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\portrait.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\portrait.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\back.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\single_layout_selector.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\single_layout_selector.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo_bg.jpg",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\logo_bg.jpg"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\single_select.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\single_select.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkswitch_mask.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\checkswitch_mask.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\checkswitch_btn_pressed.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable-mdpi\\checkswitch_btn_pressed.png"
+    }
+]

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="40dp"
+	        android:layout_marginLeft="60dp"
+	        android:text=" 包装发送操作。。。"
+	        android:textSize="32sp" />
+
+	 <LinearLayout  
+	    android:layout_width="match_parent"	    
+	    android:layout_height="60dp"
+	    android:orientation="horizontal" > 
+	    
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="  数量: " 
+	        android:textSize="26sp"/>
+
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="332dp"
+	        android:layout_height="wrap_content"
+	        android:inputType="number" 
+	        android:singleLine="true"
+	        android:hint = "请输入箱数"
+	        android:maxLength="8"
+	        
+	        android:textSize="26sp"/>
+	  </LinearLayout>  
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="130dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="40dp"
+	        android:layout_marginLeft="100dp"
+	        android:background="@drawable/draw_button"
+	        android:onClick="back"
+	        android:text="@string/end" />
+
+	</LinearLayout>
+
+</LinearLayout>

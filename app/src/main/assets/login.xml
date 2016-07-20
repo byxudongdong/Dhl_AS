@@ -1,0 +1,10 @@
+<req op="getright">
+  <h>
+    <ver>1.0</ver>
+    <company>mcompany</company>
+    <user>muser</user>
+    <pass>mpass</pass>
+    <dev1>mdev1</dev1>
+    <dev2>mdev2</dev2>
+  </h>
+</req>

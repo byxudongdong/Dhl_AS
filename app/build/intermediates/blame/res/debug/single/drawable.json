@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\draw_button.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\draw_button.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pts.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\pts.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkswitch_btn_unpressed.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\checkswitch_btn_unpressed.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quit.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\quit.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkswitch_btn_pressed.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\checkswitch_btn_pressed.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg.jpg",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\login_bg.jpg"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_select.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\single_select.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_layout_selector.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\single_layout_selector.xml"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\portrait.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\portrait.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkswitch_bottom.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\checkswitch_bottom.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkswitch_frame.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\checkswitch_frame.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_bg.jpg",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\logo_bg.jpg"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkswitch_mask.png",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\checkswitch_mask.png"
+    },
+    {
+        "merged": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_shutdown_select.xml",
+        "source": "I:\\Users\\doyle\\StudioProjects\\Dhl\\app\\src\\main\\res\\drawable\\single_shutdown_select.xml"
+    }
+]

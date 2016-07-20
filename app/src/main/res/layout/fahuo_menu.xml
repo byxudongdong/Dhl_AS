@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="40dp"
+    android:columnCount="2"
+    android:rowCount="3" >
+
+    <Button
+        android:id="@+id/jianhuo_main"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:background="@drawable/draw_button"
+        android:layout_marginBottom="20dp"
+        android:layout_width="130dp"
+        android:onClick="jianhuo_main"
+        android:text=" 总 拣  " />
+
+    <Button
+        android:id="@+id/baozhuang_main"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:text=" 包 装 "      
+        android:layout_width="130dp"
+        android:onClick="baozhuang_menu"
+        android:background="@drawable/draw_button"
+        />
+
+    <Button
+        android:id="@+id/fenjian_main"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="1"
+        android:background="@drawable/draw_button"
+        android:layout_marginBottom="20dp"
+        android:layout_width="130dp"
+        android:onClick="fenjian_menu"
+        android:text=" 分 拣 " />
+
+    <Button
+        android:id="@+id/fahuo_menu_back"
+        android:layout_width="130dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="2"
+        android:background="@drawable/draw_button"
+        android:onClick="fahuo_menu_back"
+        android:text=" 返 回 " />
+
+    <Button
+        android:id="@+id/fenjian_other"
+        android:layout_width="130dp"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_row="1"
+        android:background="@drawable/draw_button"
+        android:onClick="fenjian_other"
+        android:text=" 其 他 " />
+
+</GridLayout>

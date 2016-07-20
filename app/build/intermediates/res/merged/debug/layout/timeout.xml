@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/doc_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:text="DocID:"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/doc_id_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:hint="@string/DocID"
+            android:singleLine="true"
+            android:maxLength="35"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/jianhuo_func_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/draw_button"
+        android:onClick="timeout_back"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:text="@string/timeout"
+        android:textSize="26sp" />
+
+</RelativeLayout>

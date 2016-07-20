@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/sku_id"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="10dp"
+	            android:text="SKU:"
+	            android:textSize="28dp" />
+
+	        <EditText
+	            android:id="@+id/sku_id_data"
+	            android:layout_width="260dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginTop="10dp"	 
+	            android:singleLine="true"    
+	            android:maxLength="35"       
+	            android:textSize="28dp" />
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/count"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="5dp"
+	            android:text="@string/count"
+	            android:textSize="28dp" />
+	
+	        <EditText
+	            android:id="@+id/count_data"
+	            android:layout_width="260dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginTop="5dp"
+	            android:singleLine="true"
+	            android:inputType="number"
+	            android:maxLength="8"
+	            android:textSize="28dp" />
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <Button
+	            android:id="@+id/pallet_pick"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="8dp"
+	            android:layout_marginTop="5dp"
+	            android:background="@drawable/draw_button"
+	            android:onClick="pallet_pick"
+	            android:paddingLeft="5dp"
+	            android:paddingRight="5dp"
+	            android:text="   整    拍   "
+	            android:textSize="26dp" />
+
+	        <Button
+	            android:id="@+id/case_pick"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="8dp"
+	            android:layout_marginTop="5dp"
+	            android:background="@drawable/draw_button"
+	            android:onClick="case_pick"
+	            android:paddingLeft="12dp"
+	            android:paddingRight="5dp"
+	            android:text="   整   箱   "
+	            android:textSize="26dp" />
+
+	        <Button
+	            android:id="@+id/piece_pick"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="8dp"
+	            android:layout_marginTop="5dp"
+	            android:background="@drawable/draw_button"
+	            android:onClick="piece_pick"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="5dp"
+	            android:text="  零   拣   "
+	            android:textSize="26dp" />
+	    </LinearLayout>
+	        
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sku_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="155dp"          
+            android:background="@drawable/draw_button"
+            android:onClick="sku_back"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:text="@string/back"
+            android:textSize="26dp" />
+    	</LinearLayout>
+
+	</LinearLayout>
+	
+</RelativeLayout>

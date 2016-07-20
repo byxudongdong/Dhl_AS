@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="I:\Users\doyle\StudioProjects\Dhl\app\libs\slidingmenulibary.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="a66ce811311c797f18f049a4f360410a132fde43">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\slidingmenulibary_e54229391b71168e18f99c1b45fa9c259a4449c8.jar" />
+    </item>
+    <item
+        jar="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-20.0.0_9474480b06db1dd80b4f31ac332c776df8de9f58.jar" />
+    </item>
+    <item
+        jar="H:\SDK\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_e6f3803b2fecfe4c76692579c80e60f4b4a56645.jar" />
+    </item>
+    <item
+        jar="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="502ded83cd014874c37442e01a6258e89161cf6c">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\instant-run_7a1811a235487d6190f2630f0b41f8ca3f4abc6e.jar" />
+    </item>
+    <item
+        jar="I:\Users\doyle\StudioProjects\Dhl\app\libs\xUtils-2.6.14.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14_7a31a228e5b0602aae4982d7477005523fc8af4c.jar" />
+    </item>
+    <item
+        jar="I:\Users\doyle\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\gson-2.6.2_7ea52844f1ee28a940da48a7473c02da078edc94.jar" />
+    </item>
+    <item
+        jar="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="8ef7c4382a79e3a8dbca89bc5d60deb4d211aa6a">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_9237f008e5b6a7dbfa4827c9ae1edea7c6a3dff0.jar" />
+    </item>
+    <item
+        jar="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_4eaa5382d9daa53b7ef3a4ba89ebe552916b5631.jar" />
+    </item>
+    <item
+        jar="I:\Users\doyle\StudioProjects\Dhl\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        revision="20.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="I:\Users\doyle\StudioProjects\Dhl\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_90adad1419eb5f401070a744edcda66fc5ced4d9.jar" />
+    </item>
+
+</items>
