@@ -3,6 +3,7 @@ package com.dhl;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import com.gson.FilesOpt;
 import com.gson.Root;
 import com.lidroid.xutils.util.LogUtils;
 import com.login.DatabaseHelper;
@@ -37,7 +38,7 @@ import gettime.GetThisDay;
 import gettime.Gettime;
 
 public class Main_menu extends Activity{
-	
+	String strFilePath = FilesOpt.getSdCardPath() + "/locidString.txt";
 	DatabaseHelper helper;
 	SQLiteDatabase db;
 	public Button fahuo_main;
@@ -63,17 +64,27 @@ public class Main_menu extends Activity{
 		
 		main_menu_grid = (GridLayout) findViewById(R.id.main_menu_grid);
         login_dialog_progress_line = (LinearLayout) findViewById(R.id.login_dialog_progress_line);
-        
-		login_dialog_progress_line.setVisibility(View.VISIBLE);
-		
-		fahuo_main.setClickable(false);
-		qita_main.setClickable(false);
-		sync_main.setClickable(false);
-		back_main.setClickable(false);
 		
 		//获得实例对象
 		sp = this.getSharedPreferences("userInfo", Context.MODE_WORLD_READABLE);
-				
+
+//		Editor editor = sp.edit();  //testFunc
+//		editor.putString("locidFlag",  "true" );
+//		editor.commit();
+
+		if(!sp.getString("locidFlag", "").equals("true")) {
+			login_dialog_progress_line.setVisibility(View.VISIBLE);
+
+			fahuo_main.setClickable(false);
+			qita_main.setClickable(false);
+			sync_main.setClickable(false);
+			back_main.setClickable(false);
+		}
+		else
+		{
+			login_dialog_progress_line.setVisibility(View.GONE);
+		}
+
 		newThread = new Thread(new Runnable() {
 		    @Override
 	            public void run() {
@@ -137,22 +148,58 @@ public class Main_menu extends Activity{
 				        
 				        if(sp.getString("LocIdUpDate", "1970_01_01").substring(0, 10).equals(newtime.substring(0,10)) )
 			        	{
-				        	Log.i("货架更新", "无需更新");
+				        	Log.i("货架已经更新", "无需更新");
 				        }
 				        else{
 					        String Url = sp.getString("locidservice", "http://aux.dhl.com/pts/interface/getLocIdList");
 					        //String Url = "http://www.kuaidi100.com/query?type=shentong&postid=3307313264542";
 					        String getdata = HttpUser.getJsonContent(Url);  //请求数据地址
 					        //Log.i("网络数据","json-lib，JSON转对象:"+getdata);
-					        
 					        //String s1 = "{\"loc_id\":[\"001\",\"002\",\"003\",\"004\",\"005\",\"006\",\"007\",\"008\",\"009\",\"010\"]}";
 					        //System.out.println("Json转为简单Bean===" + s1); 
 					    	//JSON对象 转 JSONModel对象
 					    	Root result = JavaBean.getPerson(getdata, com.gson.Root.class);
-					    	if(result == null)
+					    	if(result == null)		//网络请求异常，没有有效数据
 					    	{
-					    		handler.sendEmptyMessage(0x002);
-					    	}else{					    	
+								String locidTxt = null;
+								try {
+									locidTxt= FilesOpt.readTxt(strFilePath);
+								} catch (Exception e) {
+									Log.i("TXT文件读取异常", "无法完成读取");
+									e.printStackTrace();
+								}
+								result = JavaBean.getPerson(locidTxt, com.gson.Root.class);
+								if(result != null)
+								{
+									LogUtils.i("开始插入备份数据*****************"+ new SimpleDateFormat("yyyy-MM-dd  HH:mm:ss").format(new Date()));
+
+									db.beginTransaction();
+									String sql = "insert into locid (loc_id,String) values(?,?)";
+									for (int i=0;i<result.getLoc_id().size();i++) {
+										SQLiteStatement stat = db.compileStatement(sql);
+										stat.bindString(1, "loc_id");
+										stat.bindString(2, result.getLoc_id().get(i));
+										stat.executeInsert();
+									}
+									db.setTransactionSuccessful();
+									db.endTransaction();
+
+									LogUtils.i("插入备份数据完毕*****************"+ new SimpleDateFormat("yyyy-MM-dd  HH:mm:ss").format(new Date()));
+
+									Editor editor1 = sp.edit();
+									editor1.putString("LocIdUpDate", newtime);
+									//editor.putInt("ref_id", 1);
+									editor1.commit();
+								}else {
+									Log.i("TXT文件解析异常", "无法完成解析");
+									handler.sendEmptyMessage(0x002);
+								}
+
+					    	}
+							else		//网络获取数据成功
+							{
+
+								FilesOpt.WriteTxtFile( getdata, strFilePath);
 						    	//转成String 方便输出
 						    	//Log.i("货架列表","json-lib，JSON转对象:"+result.toString());
 						    	
@@ -216,11 +263,26 @@ public class Main_menu extends Activity{
 				qita_main.setClickable(true);
 				sync_main.setClickable(true);
 				back_main.setClickable(true);
+				Editor editor = sp.edit();
+				editor.putString("locidFlag",  "true" ); //货架更新成功
+				editor.apply();
 			}
 			else if(msg.what == 0x002)
 			{
 	    		Toast.makeText(getApplicationContext(), "更新货架失败！", Toast.LENGTH_LONG).show();
 	    		//finish();
+//				Editor editor = sp.edit();
+//				editor.putString("locidFlag",  "false" ); //货架更新失败
+//				editor.apply();
+				finish();
+			}
+			else if(msg.what == 0x003){
+				login_dialog_progress_line.setVisibility(View.GONE);
+				fahuo_main.setClickable(true);
+				qita_main.setClickable(true);
+				sync_main.setClickable(true);
+				back_main.setClickable(true);
+				Log.i("跳过更新阻塞","跳过更新阻塞");
 			}
 		};
 	};

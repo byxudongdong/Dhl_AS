@@ -1,5 +1,7 @@
 package com.login;
 
+import android.util.Log;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,19 +25,23 @@ public class HttpUser
             httpConn.setRequestMethod("GET");
             // 获取相应码
             int respCode = httpConn.getResponseCode();
+            Log.i("网络状态代码：",String.valueOf(respCode));
             if (respCode == 200)
             {
+                Log.i("网络通畅","服务器回应信息");
                 return ConvertStream2Json(httpConn.getInputStream());
             }
         }
         catch (MalformedURLException e)
         {
             // TODO Auto-generated catch block
+            Log.i("网络异常","服务器找不到");
             e.printStackTrace();
         }
         catch (IOException e)
         {
             // TODO Auto-generated catch block
+            Log.i("网络异常","本地错误");
             e.printStackTrace();
         }
         return "";

@@ -19,6 +19,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteStatement;
 import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle;
@@ -233,8 +234,9 @@ public class Jianhuo_huowei extends Activity {
 
 			finish();
 		}else{
+
 			Toast toast = Toast.makeText(getApplicationContext(),
-					"不存在的货架", Toast.LENGTH_SHORT);
+					"总共" + String.valueOf( fetchPlacesCount() ) + "个货架:不存在当前货架", Toast.LENGTH_SHORT);
 			toast.setGravity(Gravity.CENTER, 0, 0);
 			LinearLayout toastView = (LinearLayout) toast.getView();
 			ImageView imageCodeProject = new ImageView(getApplicationContext());
@@ -242,6 +244,14 @@ public class Jianhuo_huowei extends Activity {
 			toastView.addView(imageCodeProject, 0);
 			toast.show();
 		}
+	}
+
+	private static final String DB_TABLE_PLACES = "locid";
+	private long fetchPlacesCount() {
+		String sql = "SELECT COUNT(*) FROM " + DB_TABLE_PLACES;
+		SQLiteStatement statement = db.compileStatement(sql);
+		long count = statement.simpleQueryForLong();
+		return count;
 	}
 
 	public Boolean chackLocIdRules(String loc_id)
